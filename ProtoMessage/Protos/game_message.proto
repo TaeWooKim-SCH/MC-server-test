@@ -1,0 +1,106 @@
+syntax = "proto3";
+
+import "t_common.proto";
+
+package ProtoMessages;
+
+// 네트워크 패킷 래핑
+message GamePacket {
+  int32 header = 1;
+  TPacketPayload payload = 2;
+}
+
+// -- 방 입장 요청/응답
+message JoinRoomRequest {
+  string user_id = 1;
+  int32 room_id = 2;
+}
+message JoinRoomResponse {
+  int32 status = 1;
+  double current_payout = 2;
+  double jackpot_prob = 3;
+}
+
+// -- 배팅 요청/응답
+message BetRequest {
+  string user_id = 1;
+  int64 amount = 2;
+}
+message BetResponse {
+  int32 status = 1;
+  int64 result_amount = 2;
+}
+
+// -- 코인 추가 요청/응답
+message AddCoinsRequest {
+  string user_id = 1;
+  int64 amount = 2;
+}
+message AddCoinsResponse {
+  int32 status = 1;
+  int64 added_coins_amount = 2;
+}
+
+// -- 잭팟 요청/응답
+message JackpotWinRequest {
+  string jackpot_type = 1;
+  int64 jackpot_win_coins = 2;
+}
+message JackpotWinResponse {
+  int32 status = 1;
+  int64 added_coins_amount = 2;
+}
+
+// -- 에러
+message ErrorResponse {
+  int32 status = 1;
+  string error_message = 2;
+}
+
+message GameSessionEndNotify {
+  int64 rewarded_coins_amount = 1;
+  int64 reward_coins = 2;
+}
+
+message GameStateNotify {
+  // 필요한 필드 선언
+}
+message GameUserStateNotify {
+  double current_payout = 1;
+  double jackpot_prob = 2;
+}
+
+message GamePingRequest {
+  int64 t1 = 1; // 요청자의 시간
+  int64 gap = 2;
+}
+
+message GamePingResponse {
+  int32 status = 1;
+  int64 t1 = 2;
+  int64 t2 = 3;
+  int64 gap = 4;
+}
+
+message GameSignInRequest {
+  string user_id = 1;
+  string signature = 2;
+  string token = 3;
+}
+
+message GameSignInResponse {
+  int32 status = 1;
+  string token = 2;
+  string user_id = 3;
+}
+
+message GameReconnectRequest {
+  string user_id = 1;
+}
+
+message GameReconnectResponse {
+  int32 status = 1;
+}
+
+message GameReconnectNotify {
+}

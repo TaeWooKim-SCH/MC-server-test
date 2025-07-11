@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "cmQ83dwwKho=",
+  "success": true,
+  "projectFilePath": "/Users/atrocom/Desktop/MC-server-test/ProtoMessage/ProtoMessage.csproj",
+  "expectedPackageFiles": [
+    "/Users/atrocom/.nuget/packages/crc32.net/1.2.0/crc32.net.1.2.0.nupkg.sha512",
+    "/Users/atrocom/.nuget/packages/google.protobuf/3.31.1/google.protobuf.3.31.1.nupkg.sha512",
+    "/Users/atrocom/.nuget/packages/grpc.tools/2.72.0/grpc.tools.2.72.0.nupkg.sha512",
+    "/Users/atrocom/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/atrocom/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Crc32.NET" Version="1.2.0" />
+      <PackageReference Include="Google.Protobuf" Version="3.31.1" />
+      <PackageReference Include="Grpc.Tools" Version="2.72.0">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Messages\" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <Protobuf Include="Protos\t_common.proto" GrpcServices="None" ProtoRoot="Protos\" OutputDir="Messages/" />
+        <Protobuf Include="Protos\game_message.proto" GrpcServices="None" ProtoRoot="Protos\" OutputDir="Messages/" />
+    </ItemGroup>
+
+</Project>
