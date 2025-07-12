@@ -1,0 +1,2 @@
+Messages/GameMessage.cs: Protos/t_common.proto\
+ Protos/game_message.proto

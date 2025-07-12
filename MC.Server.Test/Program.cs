@@ -182,10 +182,10 @@ namespace MC.Server.Test
                 };
 
                 // 3. 직렬화 및 송신
-                var data = packet.ToByteArray();
+                // var data = packet.ToByteArray();
                 var stream = _client.GetStream();
                 // await stream.WriteAsync(data, 0, data.Length);
-                await Task.Run(() => packet.WriteDelimitedTo(_stream)); // _stream은 NetworkStream 인스턴스
+                await Task.Run(() => packet.WriteDelimitedTo(stream)); // _stream은 NetworkStream 인스턴스
                 await stream.FlushAsync();
                 return true;
             }

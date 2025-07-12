@@ -23,3 +23,16 @@
 /Users/atrocom/Desktop/MC-server-test/ProtoMessage/obj/Debug/net8.0/refint/ProtoMessage.dll
 /Users/atrocom/Desktop/MC-server-test/ProtoMessage/obj/Debug/net8.0/ProtoMessage.pdb
 /Users/atrocom/Desktop/MC-server-test/ProtoMessage/obj/Debug/net8.0/ref/ProtoMessage.dll
+C:\Users\bigda\Desktop\MC-server-test\ProtoMessage\bin\Debug\net8.0\ProtoMessage.deps.json
+C:\Users\bigda\Desktop\MC-server-test\ProtoMessage\bin\Debug\net8.0\ProtoMessage.dll
+C:\Users\bigda\Desktop\MC-server-test\ProtoMessage\bin\Debug\net8.0\ProtoMessage.pdb
+C:\Users\bigda\Desktop\MC-server-test\ProtoMessage\obj\Debug\net8.0\ProtoMessage.csproj.AssemblyReference.cache
+C:\Users\bigda\Desktop\MC-server-test\ProtoMessage\obj\Debug\net8.0\ProtoMessage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bigda\Desktop\MC-server-test\ProtoMessage\obj\Debug\net8.0\ProtoMessage.AssemblyInfoInputs.cache
+C:\Users\bigda\Desktop\MC-server-test\ProtoMessage\obj\Debug\net8.0\ProtoMessage.AssemblyInfo.cs
+C:\Users\bigda\Desktop\MC-server-test\ProtoMessage\obj\Debug\net8.0\ProtoMessage.csproj.CoreCompileInputs.cache
+C:\Users\bigda\Desktop\MC-server-test\ProtoMessage\obj\Debug\net8.0\ProtoMessage.sourcelink.json
+C:\Users\bigda\Desktop\MC-server-test\ProtoMessage\obj\Debug\net8.0\ProtoMessage.dll
+C:\Users\bigda\Desktop\MC-server-test\ProtoMessage\obj\Debug\net8.0\refint\ProtoMessage.dll
+C:\Users\bigda\Desktop\MC-server-test\ProtoMessage\obj\Debug\net8.0\ProtoMessage.pdb
+C:\Users\bigda\Desktop\MC-server-test\ProtoMessage\obj\Debug\net8.0\ref\ProtoMessage.dll
